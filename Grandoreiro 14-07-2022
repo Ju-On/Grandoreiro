@@ -1,0 +1,49 @@
+
+[+] Spam email > 1dr link > Html > Zip > MSI > TMPs > …… > 
+  //theoretically once downloaded and passes checks, MSI file in question will call on TMP and reach out to url payload 
+    expecting malicious .dlls to complete Grandoreiro. (on research, MSI file may also contain secondary payload URL).
+
+[+] Found historically in South East Asian and Spanish regions which goes hand in hand with Grandoreiro
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Email Infection URL(s):
+hXXps://drive[.]google[.]com/uc?export=download&id=1WfFWb2mmUTzXXPXRV7sI78qNysl0oHQZ
+
+Email Infection URL IP(s):
+172.253.63.138
+172.253.63.101
+172.253.63.102
+172.253.63.100
+172.253.63.139
+172.253.63.113
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: donwlad.nubi.xlsrt.html
+MD5: 05eed2e4d3c7be139e4e978fdff79d1a
+SHA256: e52249ec85926f54ebabe1408fb4d75b52385376ca7db2833310105843ab29ae
+File Size: 3037923 bytes (2M)
+
+File Name: download.cfie.onevmco.mefbc.zip
+MD5: 0820d794ef35e9e4c0aa5d80c47707d2
+SHA256: 0d90855a14fd89b6fb49a8ec924e3662fe457250f7dc8b8638cd1cfc2f533e35
+File Size: 2,273,294
+
+File Name: donwlad.xlse.iridiol.MSI
+MD5: eb85a8935bd7b5f00face2c55bdac6cc
+SHA256: ee084fa809b5f0e6b87acf3b8486271841354b06d813a497e0014f6ebe0257d2
+File Size: 5,757,440
+
+File Name: MSICA4F.tmp
+MD5: 51bc34e0906572e54e70e46b24145a55
+SHA256: 8e44e8d98bd7306f0659bc235ba1041a8ad00ed23d71d8641ead37d3220ae039
+File Size: 5,449,216
+
+Malware Family/Delivery Mechanism(s):
+Grandoreiro
+
+Phenotype(s):
+Banker
+
+ 
+
